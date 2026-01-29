@@ -1,2 +1,2 @@
 # DYPDV_2026-2
-Respositorio 
+Respositorio para subir las practicas del curso de Diseño y Programación de Videojuegos.
