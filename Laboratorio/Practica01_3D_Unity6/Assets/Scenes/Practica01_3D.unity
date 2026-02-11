@@ -426,9 +426,10 @@ MonoBehaviour:
   target: {fileID: 1947921196}
   distance: 5
   height: 2
+  sensitivity: 120
+  minY: -30
+  maxY: 60
   smoothSpeed: 10
-  rotationSpeed: 2
-  useInputSystem: 1
 --- !u!114 &801279191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -759,7 +760,7 @@ GameObject:
   - component: {fileID: 1947921198}
   - component: {fileID: 1947921197}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -912,7 +913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979435755}
   m_Layer: 0
-  m_Name: PlayerPivot
+  m_Name: CameraPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
